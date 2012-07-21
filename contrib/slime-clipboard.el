@@ -1,3 +1,4 @@
+(eval-when-compile (require 'slime))
 
 (define-slime-contrib slime-clipboard
   "This add a few commands to put objects into a clipboard and to

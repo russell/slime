@@ -1,4 +1,6 @@
-(defvar slime-old-documentation-lookup-function 
+(eval-when-compile (require 'slime))
+
+(defvar slime-old-documentation-lookup-function
   slime-documentation-lookup-function)
 
 (define-slime-contrib slime-hyperdoc

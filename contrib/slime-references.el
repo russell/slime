@@ -1,3 +1,4 @@
+(eval-when-compile (require 'slime))
 
 (define-slime-contrib slime-references
   "Clickable references to documentation (SBCL only)."

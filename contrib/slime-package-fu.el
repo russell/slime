@@ -1,3 +1,4 @@
+(eval-when-compile (require 'slime))
 
 (defvar slime-package-fu-init-undo-stack nil)
 

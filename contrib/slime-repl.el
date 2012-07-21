@@ -14,6 +14,7 @@
 ;;
 ;;  (slime-setup '(slime-repl [others conribs ...]))
 ;;
+(eval-when-compile (require 'slime))
 
 (define-slime-contrib slime-repl
   "Read-Eval-Print Loop written in Emacs Lisp.

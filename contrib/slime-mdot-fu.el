@@ -1,3 +1,4 @@
+(eval-when-compile (require 'slime))
 
 (define-slime-contrib slime-mdot-fu
   "Making M-. work on local functions."

@@ -1,3 +1,5 @@
+(eval-when-compile (require 'slime))
+
 (define-slime-contrib slime-media
   "Display things other than text in SLIME buffers"
   (:authors "Christophe Rhodes <csr21@cantab.net>")

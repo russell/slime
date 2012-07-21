@@ -1,3 +1,4 @@
+(eval-when-compile (require 'slime))
 
 (define-slime-contrib slime-fontifying-fu
   "Additional fontification tweaks:

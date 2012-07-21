@@ -1,3 +1,4 @@
+(eval-when-compile (require 'slime))
 
 (define-slime-contrib slime-indentation
   "Patched version of cl-indent.el as a slime-contrib module"

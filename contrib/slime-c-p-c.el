@@ -1,3 +1,5 @@
+(eval-when-compile (require 'slime))
+
 (defvar slime-c-p-c-init-undo-stack nil)
 
 (define-slime-contrib slime-c-p-c

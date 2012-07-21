@@ -1,4 +1,6 @@
 
+(eval-when-compile (require 'slime))
+
 (define-slime-contrib slime-fancy
   "Make SLIME fancy."
   (:authors "Matthias Koeppe  <mkoeppe@mail.math.uni-magdeburg.de>"

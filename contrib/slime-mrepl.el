@@ -3,6 +3,8 @@
 ;; buffer.
 ;;
 
+(eval-when-compile (require 'slime))
+
 (define-slime-contrib slime-mrepl
   "Multiple REPLs."
   (:authors "Helmut Eller <heller@common-lisp.net>")
